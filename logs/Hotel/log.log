@@ -1,0 +1,791 @@
+2017-11-07 06:44:25,491 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 06:44:25,806 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:44:25,807 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:44:25,807 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:44:25,830 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:44:37,306 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:44:37,308 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:44:37,308 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:44:37,309 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:44:43,405 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:44:43,406 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:44:43,407 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:44:43,407 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:44:50,879 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'bookingroom'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:44:50,880 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'bookingroom' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:44:50,880 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:44:50,882 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:52:00,638 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:52:00,639 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:52:00,639 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:52:00,640 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:52:12,940 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:52:12,942 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:52:13,952 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:89); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:113)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:57)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doPost(Controller.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 06:52:13,961 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:52:36,919 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:52:36,919 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:52:36,920 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:52:36,921 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:52:48,920 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:52:48,920 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:52:48,921 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:52:48,922 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:54:06,481 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:54:06,482 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:54:06,482 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 06:54:06,483 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:54:46,161 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 06:54:46,238 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:54:46,240 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:54:46,882 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 06:54:46,903 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 06:54:51,392 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 06:54:51,393 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 06:54:51,432 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 06:54:51,435 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:20:59,636 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 07:20:59,686 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:20:59,687 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:21:00,304 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:21:00,317 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:21:41,280 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:21:41,281 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:21:41,316 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:21:41,319 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:23:37,790 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:23:37,791 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:23:37,818 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:23:37,819 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:43:39,647 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 07:43:39,703 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:43:39,704 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:43:39,704 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 07:43:39,714 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:51:39,718 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 07:51:39,783 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:51:39,785 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:51:40,809 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:51:40,832 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:51:46,234 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:51:46,248 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:51:46,344 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:91); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:115)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:59)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doGet(Controller.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:51:46,359 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:53:28,257 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'Servlet successfully initialized' at com.alexnevsky.hotel.controller.Controller.init(Controller.java:53); 
+2017-11-07 07:53:28,313 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:53:28,315 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:53:28,315 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 07:53:28,328 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 07:53:35,487 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 07:53:35,489 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 07:53:36,469 com.alexnevsky.hotel.commands.general.LoginCommand 
+[ERROR]: 'com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:89); 
+com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:113)
+	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:57)
+	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+	at com.alexnevsky.hotel.controller.Controller.doPost(Controller.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+	... 34 more
+Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+	... 38 more
+2017-11-07 07:53:36,485 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 08:04:36,715 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 08:04:36,716 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 08:04:36,716 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 08:04:36,716 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 08:04:43,832 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 08:04:43,833 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 08:04:43,833 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 08:04:43,835 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 
+2017-11-07 08:04:45,962 com.alexnevsky.hotel.controller.RequestHelper 
+[INFO]: 'User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.getCommand(RequestHelper.java:114); 
+2017-11-07 08:04:45,963 com.alexnevsky.hotel.controller.RequestHelper 
+[WARN]: 'Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.RequestHelper.processRequest(RequestHelper.java:169); 
+2017-11-07 08:04:45,963 com.alexnevsky.hotel.commands.general.LoginCommand 
+[INFO]: 'Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:49); 
+2017-11-07 08:04:45,965 com.alexnevsky.hotel.controller.Controller 
+[INFO]: 'User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1' at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:92); 

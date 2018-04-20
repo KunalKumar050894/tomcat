@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Nov 07 07:53:28 IST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">Servlet successfully initialized</td>
+</tr>
+
+<tr>
+<td>57</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>59</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>59</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.commands.general.LoginCommand category">com.alexnevsky.hotel.commands.general.LoginCommand</td>
+<td title="Message">Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>72</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>7231</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>7233</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>8213</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.alexnevsky.hotel.commands.general.LoginCommand category">com.alexnevsky.hotel.commands.general.LoginCommand</td>
+<td title="Message">com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.alexnevsky.hotel.dao.exception.DAOException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:332)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.dao.AdminDAO.existAdmin(AdminDAO.java:304)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.commands.general.LoginCommand.isAdmin(LoginCommand.java:113)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.commands.general.LoginCommand.execute(LoginCommand.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.controller.Controller.processRequest(Controller.java:90)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.controller.Controller.doPost(Controller.java:73)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.filters.EncodingFilter.doFilter(EncodingFilter.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.filters.AccessFilter.doFilter(AccessFilter.java:75)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.Thread.run(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (Access denied for user 'HotelUser'@'localhost' (using password: YES))
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2294)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2038)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1532)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.dao.DataSourceDAOFactory.getConnection(DataSourceDAOFactory.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.alexnevsky.hotel.dao.AdminDAO.exist(AdminDAO.java:327)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 34 more
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLException: Access denied for user 'HotelUser'@'localhost' (using password: YES)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:794)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:255)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2304)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2290)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 38 more
+</td></tr>
+
+<tr>
+<td>8229</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">User 'null'. Dispatching to view: /jsp/error.jsp. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>668459</td>
+<td title="http-nio-8080-exec-1 thread">http-nio-8080-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>668460</td>
+<td title="http-nio-8080-exec-1 thread">http-nio-8080-exec-1</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>668460</td>
+<td title="http-nio-8080-exec-1 thread">http-nio-8080-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.commands.general.LoginCommand category">com.alexnevsky.hotel.commands.general.LoginCommand</td>
+<td title="Message">Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>668460</td>
+<td title="http-nio-8080-exec-1 thread">http-nio-8080-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>675576</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">User 'null'. Request command action: 'null'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>675577</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">Action 'null' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>675577</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.commands.general.LoginCommand category">com.alexnevsky.hotel.commands.general.LoginCommand</td>
+<td title="Message">Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>675579</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>677706</td>
+<td title="http-nio-8080-exec-4 thread">http-nio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">User 'null'. Request command action: 'login'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>677707</td>
+<td title="http-nio-8080-exec-4 thread">http-nio-8080-exec-4</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="com.alexnevsky.hotel.controller.RequestHelper category">com.alexnevsky.hotel.controller.RequestHelper</td>
+<td title="Message">Action 'login' from not auth user. Create and send command to controller: 'LoginCommand{}'. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>677707</td>
+<td title="http-nio-8080-exec-4 thread">http-nio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.commands.general.LoginCommand category">com.alexnevsky.hotel.commands.general.LoginCommand</td>
+<td title="Message">Unsuccessful attempt to log in. Login or password is empty or null. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>677709</td>
+<td title="http-nio-8080-exec-4 thread">http-nio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.alexnevsky.hotel.controller.Controller category">com.alexnevsky.hotel.controller.Controller</td>
+<td title="Message">User 'null'. Dispatching to view: /jsp/login.jsp. RemoteAddr: 0:0:0:0:0:0:0:1</td>
+</tr>
